@@ -3,23 +3,31 @@ import { Link } from 'react-router-dom'
 
 function SignUp() {
   return (
-    <div className='flex justify-center items-center w-full  bg-stone-100'>
+    <div className='flex justify-center  items-center w-full  bg-stone-100  relative overflow-hidden min-h-screen'>
+        {/* <div className='shadow-[0_0_60px_40px_rgba(239,68,68,0.5)] pointer-events-none bg-transparent absolute top-50 right-10 z-20 w-60 h-60 rounded-full'></div> */}
+        <div className="absolute z-50 -top-15 -right-15 w-60 h-60 rounded-full pointer-events-none 
+            shadow-[0_0_60px_60px_rgba(20,184,166,0.1)] bg-[rgba(20,184,166,0.1)] ">
+        </div>
+        <div className="absolute z-50 -bottom-15 -left-15 w-60 h-60 rounded-full pointer-events-none 
+            shadow-[0_0_60px_60px_rgba(20,184,166,0.1)] bg-[rgba(20,184,166,0.1)] ">
+        </div>
+
         <div className='flex flex-col justify-center items-center text-white rounded-2xl w-1/3 py-4 '>
 
-            <h3 className='font-semibold text-4xl mb-2 text-slate-800'>Join CareerTrack</h3>
-            <p className='text-slate-500 text-sm mb-4 text-center '>
+            <h3 className='font-semibold font-space text-4xl mb-2 text-slate-800'>Join CareerTrack</h3>
+            <p className='text-slate-500 font-space text-sm mb-4 text-center '>
                 Create your account and start organizing your career journey.
             </p>
 
-            <h4 className='text-teal-600 font-space-grotesk font-semibold mb-6'>
-                Internship Trackerg
+            <h4 className='text-teal-600 font-space font-semibold mb-6'>
+                Internship Tracker
             </h4>
 
             <div className='bg-slate-900 w-full p-6 rounded-xl shadow-2xl border border-slate-700 shadow-slate-900/40'>
                 <div className='mb-6'>
-                    <h2 className='text-xl font-semibold mb-1'>Create Account</h2>
-                    <p className='text-slate-400 text-sm'>
-                        Fill in your details to begin tracking your goals and applications
+                    <h2 className='text-2xl font-space font-semibold mb-1 text-center'>Create Account</h2>
+                    <p className='text-slate-400 font-space text-sm text-center'>
+                        Fill in your details to get started
                     </p>
                 </div>
 
@@ -91,7 +99,7 @@ function SignUp() {
 
             </div>
 
-            <div className='mt-6 text-slate-400 text-sm text-center'>
+            <div className='mt-6 text-slate-600 text-sm text-center'>
                 Plan Smart • Apply Better • Grow Faster
             </div>
         </div>
