@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <div className=''>
         <NavBar/>
-        <div className='mt-34 px-4'>
+        <div className='pt-34 px-4 bg-slate-100'>
             <AddApplication/>
 
         </div>
