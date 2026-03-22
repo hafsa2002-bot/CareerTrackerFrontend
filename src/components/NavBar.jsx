@@ -13,7 +13,7 @@ function NavBar() {
                 <h2 className='text-3xl font-bold font-space'>Internova</h2>
             </div>
             <div className='rounded-full  w-14 h-14 border-1 border-stone-300 cursor-pointer overflow-hidden shadow-xl'>
-                <img className='w-full ' src="images/Avatar.png" alt='avatar' />
+                <img className='w-full ' src="images/avatar2.png" alt='avatar' />
             </div>
         </nav>
     </div>
