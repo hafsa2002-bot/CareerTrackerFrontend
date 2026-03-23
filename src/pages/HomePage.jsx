@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <div className=''>
         <NavBar/>
-        <div className='pt-38 pb-20 px-10 bg-slate-100'>
+        <div className='pt-38 pb-20 px-14 bg-slate-100'>
             <AddApplication/>
             <Applications/>
         </div>

@@ -50,11 +50,11 @@ function AddApplication() {
     }
 
   return (
-    <div className='flex gap-6 justify-center  font-space'>
+    <div className='flex gap-6   font-space'>
         <div className='bg-white px-5 py-6 rounded-lg border border-stone-300 w-[45%]'>
             <div className='flex items-center gap-2 mb-5'>
                 <div className='bg-slate-700 rounded-xl text-white flex justify-center items-center shadow-lg px-2 py-2'><Plus/></div>
-                <h3 className='font-space text-xl font-bold'>Add New Application</h3>
+                <h3 className='font-space text-2xl font-bold'>Add New Application</h3>
             </div>
             <form onSubmit={handleSubmit} className='flex flex-col gap-3 w-full'>
                 {/* company name */}
