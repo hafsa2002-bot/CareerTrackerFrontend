@@ -1,4 +1,4 @@
-import { Award, AwardIcon, Calendar, Check, ChefHat, ChevronDown, Target } from 'lucide-react'
+import { Award, AwardIcon, Calendar, Check, ChefHat, ChevronDown, Clock, Flame, Sparkle, Target } from 'lucide-react'
 import React, {useState} from 'react'
 import useApplications from '../hooks/useApplications'
 
@@ -139,6 +139,33 @@ function Applications() {
                     <div className='font-space'>
                         <p className='text-xl font-bold'>{offers}</p>
                         <h2 className='text-stone-500 text-sm'>Offer(s)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='flex gap-6 mt-3'>
+            <div className='p-3 flex items-center bg-white border border-gray-100 shadow shadow-lg rounded-lg w-1/2'>
+                <div className='flex items-center gap-2 w-1/2' >
+                    <div className='flex justify-center items-center w-9 h-9 bg-red-200 text-red-600 rounded-md '><Flame/></div>
+                    <div className='font-space'>
+                        <h2 className='text-stone-500 text-sm'>Current Streak</h2>
+                        <p className='text-xl font-bold'>00</p>
+                    </div>
+                </div>
+                <div className='flex w-1/2 pl-4 items-center gap-2 border-l border-gray-200'>
+                    <div className='flex justify-center items-center w-9 h-9 bg-yellow-100 text-yellow-600 rounded-md '><Sparkle/></div>
+                    <div className='font-space'>
+                        <h2 className='text-stone-500 text-sm'>Best Streak</h2>
+                        <p className='text-xl font-bold'>00</p>
+                    </div>
+                </div>
+            </div>
+            <div className='p-3 flex items-center bg-white border border-gray-100 shadow shadow-lg rounded-lg w-1/2'>
+                <div className='flex items-center gap-2 w-1/2' >
+                    <div className='flex justify-center items-center w-9 h-9 bg-gray-200 text-gray-600 rounded-md '><Clock/></div>
+                    <div className='font-space'>
+                        <p className='text-xl font-bold'>00 days</p>
+                        <h2 className='text-stone-500 text-sm'>Longest gap without applying</h2>
                     </div>
                 </div>
             </div>
